@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_windsorsolutions_pesticides_domain_BusinessApplicatorCertification" object="${businessapplicatorcertification}" path="/businessapplicatorcertifications" z="9Rsh3IP+gF14UD82OezeEyzqaLc=">
+        <field:display field="applicatorCertificationId" id="s_com_windsorsolutions_pesticides_domain_BusinessApplicatorCertification_applicatorCertificationId" object="${businessapplicatorcertification}" z="nFCxvIatDKkNaVYpS+gyV/opHD4="/>
+        <field:display field="businessId" id="s_com_windsorsolutions_pesticides_domain_BusinessApplicatorCertification_businessId" object="${businessapplicatorcertification}" z="JwQskov+JUNDKaRXCvhrzbceP9k="/>
+    </page:show>
+</div>

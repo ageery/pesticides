@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_windsorsolutions_pesticides_domain_SystemUser" object="${systemuser}" path="/systemusers" z="FSsKXA2sJKa5qxJwwQXVT/xDWN4=">
+        <field:display field="applicatorId" id="s_com_windsorsolutions_pesticides_domain_SystemUser_applicatorId" object="${systemuser}" z="bwUal0Iwj1LkEhoyh4Du01gvKiA="/>
+        <field:display field="username" id="s_com_windsorsolutions_pesticides_domain_SystemUser_username" object="${systemuser}" z="c0qCUBZwCDUUJFU5TOWqmGeg8tw="/>
+        <field:display field="password" id="s_com_windsorsolutions_pesticides_domain_SystemUser_password" object="${systemuser}" z="R6G2mCbed2la9Bl/OKRcPoQIaiU="/>
+    </page:show>
+</div>

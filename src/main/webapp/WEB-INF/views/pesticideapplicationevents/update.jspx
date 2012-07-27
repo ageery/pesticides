@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent" modelAttribute="pesticideApplicationEvent" path="/pesticideapplicationevents" versionField="none" z="PL4WAMR/A9RiMj9I3E30o4Ai1+s=">
+        <field:simple field="applicationEventPestJoins" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_applicationEventPestJoins" messageCode="entity_reference_not_managed" messageCodeAttribute="Application Event Pest Join" z="69w8IEEg5hAqnoGegpOvFqeMmg8="/>
+        <field:select field="applicatorCertificationId" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_applicatorCertificationId" itemValue="id" items="${applicatorcertifications}" path="/applicatorcertifications" z="d8cGoNCjgEQhWgkHJ5x2w2RIXKI="/>
+        <field:select field="businessApplicatorCertificationId" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_businessApplicatorCertificationId" itemValue="id" items="${businessapplicatorcertifications}" path="/businessapplicatorcertifications" z="txvetnljUzizNhzzrBN0u0pDfbA="/>
+        <field:select field="pesticideId" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_pesticideId" itemValue="id" items="${pesticides}" path="/pesticides" z="M36nI0Wp6EWQ1rbSK+yytdit4hw="/>
+        <field:select field="applicationMethodId" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_applicationMethodId" itemValue="id" items="${pesticideapplicationmethods}" path="/pesticideapplicationmethods" z="xFHOY/B9O9ZRhxbWCg/PDQAPLLc="/>
+        <field:select field="unitId" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_unitId" itemValue="id" items="${pesticideapplicationunits}" path="/pesticideapplicationunits" z="KAEcMhmc3wjBOpmzPRHNRokiVR4="/>
+        <field:datetime dateTimePattern="${pesticideApplicationEvent_applicationdate_date_format}" field="applicationDate" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_applicationDate" required="true" z="om6EOxhh3FHEgiEgoOAY2v8K+Sc="/>
+        <field:input field="quantity" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_quantity" required="true" validationMessageCode="field_invalid_number" z="i/KoNbyPzOn93PlQA501yiu8AuE="/>
+        <field:input field="dosage" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_dosage" z="3LoWCtj20UaGukNva8HCSmqMWeg="/>
+        <field:input field="street1" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_street1" required="true" z="2TdqVb1/ADQGwGU0GU91yxCmvVo="/>
+        <field:input field="street2" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_street2" z="iVC/0vuY+WC75q4I8PaCIhIJr2c="/>
+        <field:input field="city" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_city" required="true" z="8HwUZQI0vVw6q4P1fr52adxwQ4Y="/>
+        <field:input field="state" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_state" required="true" z="n5ivUG1VdrCPAWusxATpEQAaEmA="/>
+        <field:input field="zip" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_zip" required="true" z="WZxKp37wXwsbHFBuzbS3HnQ6RDk="/>
+        <field:input field="description" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_description" z="02MfKddM4fU02cBHnbzkIjcXjM0="/>
+        <field:input field="latitude" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_latitude" validationMessageCode="field_invalid_number" z="xAm8udg+F29/+dhXcg4E4Rf93T4="/>
+        <field:input field="longitude" id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_longitude" validationMessageCode="field_invalid_number" z="KEOtaPtFHpZETn3asJhMWZ2SC0s="/>
+    </form:update>
+</div>

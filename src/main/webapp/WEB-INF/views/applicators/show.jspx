@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_windsorsolutions_pesticides_domain_Applicator" object="${applicator}" path="/applicators" z="ygQK28XPT2KMuVbmJ0nH2+mt9bk=">
+        <field:display field="firstName" id="s_com_windsorsolutions_pesticides_domain_Applicator_firstName" object="${applicator}" z="cgYW/mqbETRLW1NiQTkD7Q2H9NY="/>
+        <field:display field="lastName" id="s_com_windsorsolutions_pesticides_domain_Applicator_lastName" object="${applicator}" z="YqYbwCyEY3OV/kmXXv5CePQD918="/>
+        <field:display field="fullName" id="s_com_windsorsolutions_pesticides_domain_Applicator_fullName" object="${applicator}" z="AB9x8YifW+EmHz+i+4uRIvDuzGk="/>
+        <field:display field="email" id="s_com_windsorsolutions_pesticides_domain_Applicator_email" object="${applicator}" z="pQkKfagt35oTRDvDGB/vHvS5hh0="/>
+        <field:display field="phone" id="s_com_windsorsolutions_pesticides_domain_Applicator_phone" object="${applicator}" z="qhFrmOvxKQOUGCx/bLc9hzIn740="/>
+    </page:show>
+</div>

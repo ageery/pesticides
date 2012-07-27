@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="pesticideapplicationevents/list">
+        <put-attribute name="body" value="/WEB-INF/views/pesticideapplicationevents/list.jspx"/>
+    </definition>
+<definition extends="default" name="pesticideapplicationevents/show">
+        <put-attribute name="body" value="/WEB-INF/views/pesticideapplicationevents/show.jspx"/>
+    </definition>
+<definition extends="default" name="pesticideapplicationevents/create">
+        <put-attribute name="body" value="/WEB-INF/views/pesticideapplicationevents/create.jspx"/>
+    </definition>
+<definition extends="default" name="pesticideapplicationevents/update">
+        <put-attribute name="body" value="/WEB-INF/views/pesticideapplicationevents/update.jspx"/>
+    </definition>
+</tiles-definitions>

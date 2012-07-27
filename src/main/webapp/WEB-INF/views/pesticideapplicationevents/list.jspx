@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent" items="${pesticideapplicationevents}" z="w9Mnd/O0VQh+P0IIoNN6sH/AVRo=">
+        <table:table data="${pesticideapplicationevents}" id="l_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent" path="/pesticideapplicationevents" z="YgN40bYGnKoJfa/xfPRxvWmZArk=">
+            <table:column id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_applicatorCertificationId" property="applicatorCertificationId" z="kmEQ+kImOBPc9NBdKK9jqSoZ/co="/>
+            <table:column id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_businessApplicatorCertificationId" property="businessApplicatorCertificationId" z="nm/nGh4hVne4JgHI0CDcqYm7AFw="/>
+            <table:column id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_pesticideId" property="pesticideId" z="9uZkphXywd00LjxGeguzHn/rK5k="/>
+            <table:column id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_applicationMethodId" property="applicationMethodId" z="fyuGh56dAKXjvOOUw6V65YgECE8="/>
+            <table:column id="c_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_unitId" property="unitId" z="Dpzf1nFkYixrT6CN2mSxOo0QVrw="/>
+        </table:table>
+    </page:list>
+</div>

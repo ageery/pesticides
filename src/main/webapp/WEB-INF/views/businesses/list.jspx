@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_windsorsolutions_pesticides_domain_Business" items="${businesses}" z="8TujeWXPip+gcmXr0qoqaktEuc4=">
+        <table:table data="${businesses}" id="l_com_windsorsolutions_pesticides_domain_Business" path="/businesses" z="rAYoxnoOiIkEKiZJEGeH1hj/kiI=">
+            <table:column id="c_com_windsorsolutions_pesticides_domain_Business_name" property="name" z="+ijs3fqin3nNFQV7OQJb4HfEOiM="/>
+            <table:column id="c_com_windsorsolutions_pesticides_domain_Business_regulationNum" property="regulationNum" z="dovYxUR+TYCsd+Hytrm2mXLnAmk="/>
+        </table:table>
+    </page:list>
+</div>

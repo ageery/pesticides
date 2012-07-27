@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_windsorsolutions_pesticides_domain_Applicator" modelAttribute="applicator" path="/applicators" render="${empty dependencies}" z="KCKg+O5vWGiK0HpVmKdNkx6M/OA=">
+        <field:simple field="applicatorCertifications" id="c_com_windsorsolutions_pesticides_domain_Applicator_applicatorCertifications" messageCode="entity_reference_not_managed" messageCodeAttribute="Applicator Certification" z="sNtFKTCYMxsp/BSWiF+OPhd65OQ="/>
+        <field:simple field="systemUsers" id="c_com_windsorsolutions_pesticides_domain_Applicator_systemUsers" messageCode="entity_reference_not_managed" messageCodeAttribute="System User" z="oy+eOClFjw5P+8QnI3/UM3GDBTs="/>
+        <field:input field="firstName" id="c_com_windsorsolutions_pesticides_domain_Applicator_firstName" required="true" z="RH0Rr3SZ0bst3571fHrzvdZUEf8="/>
+        <field:input field="lastName" id="c_com_windsorsolutions_pesticides_domain_Applicator_lastName" required="true" z="G/sMD20x4Z76w6/lnMJpJWr4iSg="/>
+        <field:input field="fullName" id="c_com_windsorsolutions_pesticides_domain_Applicator_fullName" required="true" z="X4a6UD3zW331sxcD3uaowGctqfU="/>
+        <field:input field="email" id="c_com_windsorsolutions_pesticides_domain_Applicator_email" required="true" validationMessageCode="field_invalid_email" z="YQBrLRPe3MiYj0qDofDkl2jrToI="/>
+        <field:input field="phone" id="c_com_windsorsolutions_pesticides_domain_Applicator_phone" required="true" z="HNCvKM6WWDD1U0BG4WplLxYJDys="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_windsorsolutions_pesticides_domain_Applicator" render="${not empty dependencies}" z="x5hhGOhNylyGW51s5/oVc14//v8="/>
+</div>

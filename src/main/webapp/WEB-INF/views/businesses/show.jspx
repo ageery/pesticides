@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_windsorsolutions_pesticides_domain_Business" object="${business}" path="/businesses" z="QKH9q5h86uspNFUfblIR6x5mhys=">
+        <field:display field="name" id="s_com_windsorsolutions_pesticides_domain_Business_name" object="${business}" z="HqW4MV5rRfS5Cf9SAur/IRpXNiw="/>
+        <field:display field="regulationNum" id="s_com_windsorsolutions_pesticides_domain_Business_regulationNum" object="${business}" z="j038iPkauS4LJb+ZV6MvOyAqvtU="/>
+    </page:show>
+</div>

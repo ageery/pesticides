@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent" object="${pesticideapplicationevent}" path="/pesticideapplicationevents" z="v3+cVPly89pAWATY18zwNx6KDp8=">
+        <field:display field="applicatorCertificationId" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_applicatorCertificationId" object="${pesticideapplicationevent}" z="syJGLbc0rFzwOFCFUIm46Y250fs="/>
+        <field:display field="businessApplicatorCertificationId" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_businessApplicatorCertificationId" object="${pesticideapplicationevent}" z="1CR9UJw5SCjbss5ePXuHtP1EfYY="/>
+        <field:display field="pesticideId" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_pesticideId" object="${pesticideapplicationevent}" z="AJPEMXgiy3pYpVOZow0AKQGwoTs="/>
+        <field:display field="applicationMethodId" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_applicationMethodId" object="${pesticideapplicationevent}" z="wxwl0eo8wIIV4/FdDZ4wqxPhmC8="/>
+        <field:display field="unitId" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_unitId" object="${pesticideapplicationevent}" z="/NjdrnQz03tdI/bZXEaoaNwDK1E="/>
+        <field:display date="true" dateTimePattern="${pesticideApplicationEvent_applicationdate_date_format}" field="applicationDate" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_applicationDate" object="${pesticideapplicationevent}" z="wttS6ZnrBacaR2nzBWlmq6s1zzg="/>
+        <field:display field="quantity" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_quantity" object="${pesticideapplicationevent}" z="WfGBnecLQdFw1WkZ/QR13Wh6aBQ="/>
+        <field:display field="dosage" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_dosage" object="${pesticideapplicationevent}" z="3qY8zdedOcVOwTz3w3HAZ+cJFlQ="/>
+        <field:display field="street1" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_street1" object="${pesticideapplicationevent}" z="9rcXAFMSPPHcLPwsDM48BqT2KDE="/>
+        <field:display field="street2" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_street2" object="${pesticideapplicationevent}" z="3O68m3Bm3NwG7wRI5hzbzi7V14k="/>
+        <field:display field="city" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_city" object="${pesticideapplicationevent}" z="ktOin2YqB3Qip548hPC9Hq5aWq8="/>
+        <field:display field="state" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_state" object="${pesticideapplicationevent}" z="gaWyMPgjP3fvIigxHq9XHG0SYaY="/>
+        <field:display field="zip" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_zip" object="${pesticideapplicationevent}" z="tRt4DvVhZ4vLwV2wJW88uOe6ux0="/>
+        <field:display field="description" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_description" object="${pesticideapplicationevent}" z="cS4jRYNh41tFDagSumW/nxD/P5c="/>
+        <field:display field="latitude" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_latitude" object="${pesticideapplicationevent}" z="Z8gtwab6KqCyVCUa4CGeDd1B7qg="/>
+        <field:display field="longitude" id="s_com_windsorsolutions_pesticides_domain_PesticideApplicationEvent_longitude" object="${pesticideapplicationevent}" z="ykLER+FyEmr6Ayq2cAM0opVOMew="/>
+    </page:show>
+</div>

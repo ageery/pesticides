@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_windsorsolutions_pesticides_domain_ApplicatorCertification" modelAttribute="applicatorCertification" path="/applicatorcertifications" versionField="none" z="cSrMDPn0ot/k1vEQxmN0bFyt+k4=">
+        <field:simple field="businessApplicatorCertifications" id="c_com_windsorsolutions_pesticides_domain_ApplicatorCertification_businessApplicatorCertifications" messageCode="entity_reference_not_managed" messageCodeAttribute="Business Applicator Certification" z="032zE11uzNIh+vHQrcpVfq8QNxQ="/>
+        <field:simple field="pesticideApplicationEvents" id="c_com_windsorsolutions_pesticides_domain_ApplicatorCertification_pesticideApplicationEvents" messageCode="entity_reference_not_managed" messageCodeAttribute="Pesticide Application Event" z="lKqJsZJQvfJeU63E1Nu4sqR7TMQ="/>
+        <field:select field="applicatorId" id="c_com_windsorsolutions_pesticides_domain_ApplicatorCertification_applicatorId" itemValue="id" items="${applicators}" path="/applicators" z="j/BUvcRkrlXjbymoilQff2KZ+yY="/>
+        <field:input field="certIdNum" id="c_com_windsorsolutions_pesticides_domain_ApplicatorCertification_certIdNum" required="true" z="b92BD+ya6iXa1pbahvv7AZbmfyo="/>
+    </form:update>
+</div>

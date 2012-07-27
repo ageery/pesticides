@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_windsorsolutions_pesticides_domain_Applicator" items="${applicators}" z="AYE7IKZEvQp4I1B9yemtSl6DM7E=">
+        <table:table data="${applicators}" id="l_com_windsorsolutions_pesticides_domain_Applicator" path="/applicators" z="xOaIIvn/quYF4tZW0tQA6ETvY6E=">
+            <table:column id="c_com_windsorsolutions_pesticides_domain_Applicator_firstName" property="firstName" z="eOQFH5sPxoGbPYCLafgag09ykrY="/>
+            <table:column id="c_com_windsorsolutions_pesticides_domain_Applicator_lastName" property="lastName" z="Za7AeOeEAf7nsajq2CiY4oy9Hc0="/>
+            <table:column id="c_com_windsorsolutions_pesticides_domain_Applicator_fullName" property="fullName" z="xlDW6L1/Kz5SagtZPj2cL+iZiTU="/>
+            <table:column id="c_com_windsorsolutions_pesticides_domain_Applicator_email" property="email" z="/t7ZmFVTOSGUB+YDQwHGQkTp4H8="/>
+        </table:table>
+    </page:list>
+</div>

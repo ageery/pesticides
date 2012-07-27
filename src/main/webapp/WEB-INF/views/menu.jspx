@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_pesticide" z="vw5In3ymH8ZqM2F/JB8duCOCF/M=">
+            <menu:item id="i_pesticide_new" messageCode="global_menu_new" url="/pesticides?form" z="TCO5zKKiH6Z3Ui1Ki6I9vI3pnck="/>
+            <menu:item id="i_pesticide_list" messageCode="global_menu_list" url="/pesticides?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Cvj7EvRrX1IIQUt6eXZoo0SogbY="/>
+        </menu:category>
+        <menu:category id="c_systemuser" z="VUyOQ1qm2564dCbm9lJylDiISxw=">
+            <menu:item id="i_systemuser_new" messageCode="global_menu_new" url="/systemusers?form" z="goei29ZpWJ1W7luGL4W4aXNyZBQ="/>
+            <menu:item id="i_systemuser_list" messageCode="global_menu_list" url="/systemusers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Ic4rUisCvrgrcwFXWNiimXXNy8g="/>
+        </menu:category>
+        <menu:category id="c_business" z="3/VDXzhDjzFLUzdoL2Wg0S7bUMk=">
+            <menu:item id="i_business_new" messageCode="global_menu_new" url="/businesses?form" z="5p0cLS8PCK+/fwVHwTtVWPNEI94="/>
+            <menu:item id="i_business_list" messageCode="global_menu_list" url="/businesses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="mJrfuDzhEQHIrcNjPZppY9JaCc8="/>
+        </menu:category>
+        <menu:category id="c_pesticideapplicationevent" z="oVs2+IqPz2/0FGkXRhiWpNTstBA=">
+            <menu:item id="i_pesticideapplicationevent_new" messageCode="global_menu_new" url="/pesticideapplicationevents?form" z="cMAecoJstyuvE7dHky9CfIQAXqg="/>
+            <menu:item id="i_pesticideapplicationevent_list" messageCode="global_menu_list" url="/pesticideapplicationevents?page=1&amp;size=${empty param.size ? 10 : param.size}" z="G9aFXUERwJUJnEkSEemBl6Wzyc4="/>
+        </menu:category>
+        <menu:category id="c_pesticideapplicationmethod" z="6whDOv+ZlPaVpPCyvn7FXGwpeIw=">
+            <menu:item id="i_pesticideapplicationmethod_new" messageCode="global_menu_new" url="/pesticideapplicationmethods?form" z="kpYFZFSlWjhhVpNsxUtLK/GwnkQ="/>
+            <menu:item id="i_pesticideapplicationmethod_list" messageCode="global_menu_list" url="/pesticideapplicationmethods?page=1&amp;size=${empty param.size ? 10 : param.size}" z="C4r0CjKR13eG0i3s9+MwIf1Ev2s="/>
+        </menu:category>
+        <menu:category id="c_businessapplicatorcertification" z="7leW4P8wNbvYX5HUn+IrRiaJTOI=">
+            <menu:item id="i_businessapplicatorcertification_new" messageCode="global_menu_new" url="/businessapplicatorcertifications?form" z="k3foaHDG+64I39OVp7tPLX3vn1w="/>
+            <menu:item id="i_businessapplicatorcertification_list" messageCode="global_menu_list" url="/businessapplicatorcertifications?page=1&amp;size=${empty param.size ? 10 : param.size}" z="V0W5PHVNLyJ2nuBxYftX7GYA86U="/>
+        </menu:category>
+        <menu:category id="c_pesticideapplicationunit" z="s5tjY1YB5YqyxQL2b/VVZbzKL5g=">
+            <menu:item id="i_pesticideapplicationunit_new" messageCode="global_menu_new" url="/pesticideapplicationunits?form" z="y5AyE7RBw3U1bgWKBp6qQ7NEfmI="/>
+            <menu:item id="i_pesticideapplicationunit_list" messageCode="global_menu_list" url="/pesticideapplicationunits?page=1&amp;size=${empty param.size ? 10 : param.size}" z="jvA2D21leK2N3Rd5SGej3r60m/A="/>
+        </menu:category>
+        <menu:category id="c_applicator" z="SF5iwpBmjiO6+nuVmqJ9h8B08gs=">
+            <menu:item id="i_applicator_new" messageCode="global_menu_new" url="/applicators?form" z="OL0BT94SXbnpwmNK0qKR/W6v5T8="/>
+            <menu:item id="i_applicator_list" messageCode="global_menu_list" url="/applicators?page=1&amp;size=${empty param.size ? 10 : param.size}" z="aHeaODDHb0tsaPNJRxClsgOdVO8="/>
+        </menu:category>
+        <menu:category id="c_applicationeventpestjoin" z="8GS3ms8p4zn6nVBwM9gnH4htE50=">
+            <menu:item id="i_applicationeventpestjoin_new" messageCode="global_menu_new" url="/applicationeventpestjoins?form" z="9FtyTkZkh4+c+zQiysE/Aks2RFE="/>
+            <menu:item id="i_applicationeventpestjoin_list" messageCode="global_menu_list" url="/applicationeventpestjoins?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/jFJNwB6Y3aDbOEd/xrNv8sW0vY="/>
+        </menu:category>
+        <menu:category id="c_applicatorcertification" z="gdja1x1FhRwOIhUcfc35OmVH2hA=">
+            <menu:item id="i_applicatorcertification_new" messageCode="global_menu_new" url="/applicatorcertifications?form" z="k17bFrBanO4ideqzPfrinKi8uMY="/>
+            <menu:item id="i_applicatorcertification_list" messageCode="global_menu_list" url="/applicatorcertifications?page=1&amp;size=${empty param.size ? 10 : param.size}" z="RiTseUxpMX3qzeBm/8GpWzTmfck="/>
+        </menu:category>
+    </menu:menu>
+</div>
